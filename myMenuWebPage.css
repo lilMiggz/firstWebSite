@@ -1,0 +1,112 @@
+body {
+  background-color:#45B39D;
+}
+
+#menu_title{
+  border-top: 15px solid #2C3E50;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 15px solid #2C3E50;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+ margin-top: 15px;
+
+}
+
+.title_background{
+  top:auto;
+  bottom: auto;
+  background-color: #2C3E50;
+  right: 500px;
+  border-radius: 25px;
+
+}
+
+#title{
+
+  color: #F7DC6F;
+  text-align: center;
+  font-family: 'holy-ravioliregular', Arial, sans-serif;
+  font-size: 75px;
+
+}
+
+h2.fizz, h2.miggy_subs, h2.miggy_desserts {
+  text-align: center;
+  color: #F7DC6F;
+  font: bold 25px comic sans ms, sans-serif;
+}
+
+#sub_name, #desrt_name {
+  color: #F7DC6F;
+  padding-left: 30px;
+  margin-bottom: 0;
+  font: bold 18px comic sans ms, sans-serif;
+  cursor: pointer;
+
+}
+
+p {
+    color: #AEB6BF;
+    margin-top: 0;
+    margin-right: 10px;
+    padding-left: 30px;
+    font: bold 15px comic sans ms, sans-serif;
+}
+
+
+div.closed {
+  display: none;
+}
+
+div.open {
+  display: block;
+}
+
+#drinks{
+  background-color: #2C3E50;
+  width: 450px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+#drink_menu {
+  color: #AEB6BF;
+  font: bold 20px comic sans ms, sans-serif;
+   border-collapse: separate;
+   width: 400px;
+   padding-left: 50px;
+   padding-right: 10px;
+   padding-bottom: 10px;
+}
+
+th.soft_drinks{
+	position: relative;
+  left: 40px;
+	text-align: center;
+  border-bottom: 3px solid #AEB6BF;
+
+}
+
+td.col_2{
+  text-align: right;
+}
+
+#subs, #desserts{
+  width: 450px;
+  margin-top: 30px;
+  margin-left: 30px;
+  background-color:  #2C3E50;
+  border-radius: 10px;
+  padding-bottom: 15px;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* fraction*/
+}
+
+a:hover {
+  color: #C0392B;
+}
